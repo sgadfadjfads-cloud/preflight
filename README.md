@@ -66,6 +66,15 @@ The evaluator checks observable concepts and obvious violations only. It is inte
 
 Deep judgment, concise complete communication, transparent risk reasoning, explicit authorization boundaries, and no private chain-of-thought disclosure.
 
+## Contributors
+
+- **sgadfadjfads-cloud** — project creator and maintainer.
+- **OpenAI Codex** — AI-assisted development and review support; not a legal person or copyright holder.
+
+## Acknowledgments
+
+Preflight is an original combination of ideas informed by the wider agent-tooling community. It is especially inspired by the [AGENTS.md format](https://github.com/openai/agents.md), [obra/superpowers](https://github.com/obra/superpowers), [problem-statement](https://www.skills.sh/open-horizon-labs/skills/problem-statement), and [asking-clarifying-questions](https://eliteai.tools/agent-skills/asking-clarifying-questions). These projects and their authors are references and inspirations, not claimed contributors to this repository.
+
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
