@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deep Problem Framing"
+  short_description: "Frame goals, risks, boundaries, and success before agent action"
+  default_prompt: "Use deep problem framing when a task may hide important goals, constraints, risks, or authorization boundaries."

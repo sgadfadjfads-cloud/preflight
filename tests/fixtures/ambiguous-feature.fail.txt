@@ -1,0 +1,1 @@
+I will build the export today with all customer fields. Administrators can export everything, and I will deploy it after adding CSV, Excel, and JSON support.

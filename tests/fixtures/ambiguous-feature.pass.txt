@@ -1,0 +1,1 @@
+The request is to let an authorized operator export a defined customer-data scope in CSV, Excel, or JSON. Before implementation I need the audience, data fields and scope, permission model, success criteria, data volume, and audit requirements. I will not invent fields or permissions. The main risks are unauthorized disclosure and an unverified same-day release.
