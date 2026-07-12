@@ -34,6 +34,7 @@ This is an instruction-level protocol, not a runtime enforcement or safety syste
 - [`tests/cases.md`](tests/cases.md): observable pressure cases.
 - [`tests/validate_skill.py`](tests/validate_skill.py): deterministic package checks.
 - [`tests/evaluate_response.py`](tests/evaluate_response.py): conservative checks for saved agent responses.
+- [`examples/customer-export-before-after.md`](examples/customer-export-before-after.md): a reproducible before/after demonstration.
 
 ## Installation
 
@@ -60,6 +61,8 @@ The first public release is [v0.1.0](https://github.com/sgadfadjfads-cloud/prefl
 For “Build a customer export for CSV, Excel, and JSON today,” an agent should not invent fields, permissions, or deployment approval. It should identify the audience, data scope, authorization, success condition, risks, and the smallest unresolved decisions before implementation.
 
 For “Fix this typo,” it should make the correction directly without a full requirements interview.
+
+For a reproducible before/after comparison, see [`examples/customer-export-before-after.md`](examples/customer-export-before-after.md).
 
 ## Validation
 
