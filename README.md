@@ -2,6 +2,8 @@
 
 A vendor-neutral behavior protocol for AI agents that helps them understand the real problem before acting.
 
+[简体中文](README.zh-CN.md)
+
 ## Why this exists
 
 Agents can complete the visible request while missing the user's actual goal, hidden constraints, authorization boundary, or definition of success. Preflight adds a lightweight check before meaningful action:
