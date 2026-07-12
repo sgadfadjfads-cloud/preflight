@@ -4,6 +4,16 @@ A vendor-neutral behavior protocol for AI agents that helps them understand the 
 
 [简体中文](README.zh-CN.md)
 
+> **The problem:** an agent can complete the visible request while missing the real goal, constraints, or authorization boundary. **Preflight:** frame the task first, then act.
+
+### 30-second example
+
+| Request | Without Preflight | With Preflight |
+|---|---|---|
+| “Build a customer export for CSV, Excel, and JSON today.” | Invents fields and permissions, then starts coding. | Clarifies audience, data scope, authorization, success criteria, risks, and the smallest blocking decisions. |
+
+Preflight is deliberately lightweight: “Fix this typo” should still be fixed directly.
+
 ## Why this exists
 
 Agents can complete the visible request while missing the user's actual goal, hidden constraints, authorization boundary, or definition of success. Preflight adds a lightweight check before meaningful action:
@@ -31,6 +41,8 @@ This is an instruction-level protocol, not a runtime enforcement or safety syste
 
 Install or copy this repository as a Skill, preserving `SKILL.md` and `agents/openai.yaml` in the Skill package directory. The Skill is intended for tasks where the request may hide important goals, constraints, risks, authorization boundaries, success conditions, or unresolved assumptions.
 
+For Codex, Claude Code, Cursor, and other Skill-aware agents, install the repository using that agent's normal Skill directory or marketplace workflow. The package is instruction-only and has no runtime dependency.
+
 ### Global activation
 
 Copy the contents of [`AGENTS.md`](AGENTS.md) into the global or project-level instruction file supported by your agent. Use this when you want the protocol to run for every new task and to re-run when a follow-up materially changes the task frame.
@@ -38,6 +50,10 @@ Copy the contents of [`AGENTS.md`](AGENTS.md) into the global or project-level i
 ### Both
 
 Use the Skill for the reusable detailed guidance and the template for task-boundary activation. Keep only one authoritative copy of the template in your environment to avoid contradictory instruction variants.
+
+## Release
+
+The first public release is [v0.1.0](https://github.com/sgadfadjfads-cloud/preflight/releases/tag/v0.1.0). Treat the protocol as an evolving behavioral experiment and report concrete failures through Issues or Pull Requests.
 
 ## Example behavior
 
