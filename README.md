@@ -1,10 +1,10 @@
-# Deep Problem Framing
+# Preflight
 
 A vendor-neutral behavior protocol for AI agents that helps them understand the real problem before acting.
 
 ## Why this exists
 
-Agents can complete the visible request while missing the user's actual goal, hidden constraints, authorization boundary, or definition of success. Deep Problem Framing adds a lightweight check before meaningful action:
+Agents can complete the visible request while missing the user's actual goal, hidden constraints, authorization boundary, or definition of success. Preflight adds a lightweight check before meaningful action:
 
 - simple tasks stay simple;
 - ambiguous work surfaces the decisions that matter;

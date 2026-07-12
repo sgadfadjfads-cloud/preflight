@@ -1,4 +1,4 @@
-# Deep Problem Framing — Global Template
+# Preflight — Global Template
 
 Copy this file into the global or project-level instruction file used by your agent when you want the framing protocol to run for every new task and material scope change. Keep platform safety rules, system instructions, and user authorization above this template.
 

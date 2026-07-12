@@ -1,9 +1,9 @@
 ---
-name: deep-problem-framing
+name: preflight
 description: Use when a task may hide important goals, constraints, risks, success conditions, authorization boundaries, or unresolved assumptions before action.
 ---
 
-# Deep Problem Framing
+# Preflight
 
 ## Overview
 

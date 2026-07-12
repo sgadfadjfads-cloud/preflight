@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the public Deep Problem Framing package without third-party dependencies."""
+"""Validate the public Preflight package without third-party dependencies."""
 
 from pathlib import Path
 import re
@@ -37,8 +37,8 @@ def main() -> int:
     description = re.search(r"^description:\s*(.+)$", metadata, re.MULTILINE)
     if not name or not description:
         fail("SKILL.md frontmatter must contain name and description")
-    if name.group(1).strip() != "deep-problem-framing":
-        fail("Skill name must be deep-problem-framing")
+    if name.group(1).strip() != "preflight":
+        fail("Skill name must be preflight")
     if not re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name.group(1).strip()):
         fail("Skill name must be lowercase hyphenated text")
     if not description.group(1).strip().startswith("Use when"):

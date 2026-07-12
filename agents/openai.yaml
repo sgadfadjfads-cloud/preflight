@@ -1,4 +1,4 @@
 interface:
-  display_name: "Deep Problem Framing"
+  display_name: "Preflight"
   short_description: "Frame goals, risks, boundaries, and success before agent action"
-  default_prompt: "Use deep problem framing when a task may hide important goals, constraints, risks, or authorization boundaries."
+  default_prompt: "Use Preflight when a task may hide important goals, constraints, risks, or authorization boundaries."
