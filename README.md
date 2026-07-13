@@ -6,6 +6,8 @@ A vendor-neutral behavior protocol for AI agents that helps them understand the 
 
 > **The problem:** an agent can complete the visible request while missing the real goal, constraints, or authorization boundary. **Preflight:** frame the task first, then act.
 
+> **Core rule:** before deciding how to act on every new task, activate the problem-essence gate. Identify the affected party, real need, constraints, protected boundaries, success condition, and material unknowns first.
+
 ### 30-second example
 
 | Request | Without Preflight | With Preflight |

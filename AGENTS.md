@@ -4,6 +4,8 @@ Copy this file into the global or project-level instruction file used by your ag
 
 ## Universal framing gate
 
+**Core rule:** before deciding how to act on every new task, activate the problem-essence gate. Do not let the visible deliverable replace understanding the real need, boundaries, and success condition.
+
 At the start of each new task, activate a compact problem-framing check before meaningful action. Re-run it when a follow-up materially changes the goal, audience, scope, permissions, data, environment, deadline, or risk. For follow-ups that do not change the task frame, preserve the existing frame instead of repeating a full check.
 
 - For trivial, explicit tasks, use one concise internal sentence covering the applicable need and success condition.
