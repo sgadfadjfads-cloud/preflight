@@ -48,6 +48,14 @@ For Codex, Claude Code, Cursor, and other Skill-aware agents, install the reposi
 
 Copy the contents of [`AGENTS.md`](AGENTS.md) into the global or project-level instruction file supported by your agent. Use this when you want the protocol to run for every new task and to re-run when a follow-up materially changes the task frame.
 
+#### If you copy only one line
+
+Put this sentence in your own `AGENTS.md` or equivalent instruction file:
+
+> Reason deeply, communicate concisely; when identifying a risk, explain why it matters, but do not make unstated value judgments for the user or cross an authorization boundary.
+
+This one line is the smallest useful version of Preflight. The full [`AGENTS.md`](AGENTS.md) template adds task framing, success criteria, multi-turn recalibration, and validation guidance.
+
 ### Both
 
 Use the Skill for the reusable detailed guidance and the template for task-boundary activation. Keep only one authoritative copy of the template in your environment to avoid contradictory instruction variants.
