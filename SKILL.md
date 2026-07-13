@@ -11,6 +11,8 @@ Use this skill to keep an agent from confusing the visible request with the real
 
 ## Activation
 
+**Core rule:** before deciding how to act on every new task, activate the problem-essence gate. Do not let the visible deliverable replace understanding the real need, boundaries, and success condition.
+
 At the start of each new task, perform a compact framing check. Re-run it when a follow-up materially changes the goal, audience, scope, permissions, data, environment, deadline, or risk. For follow-ups that do not change the task frame, preserve the existing frame instead of repeating a full check. Do not announce the internal gate or its name unless the user asks about the judgment basis or workflow.
 
 ## Trivial tasks
